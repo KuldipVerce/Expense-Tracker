@@ -1,0 +1,21 @@
+{
+	"editor.formatOnSave": true,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false, // Use tabs, not spaces
+	"editor.detectIndentation": false, // <---- CRITICAL
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}
